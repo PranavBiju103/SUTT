@@ -1,0 +1,144 @@
+*{
+    background-color: rgb(255, 254, 254);
+ scro
+}
+
+ #razorpay{
+  
+   margin-left: 15rem;
+   margin-top : 1rem;
+}
+
+#navigation{
+    display: flex;
+    position: sticky;
+    z-index: 5;
+}
+.text{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+#contact{
+    width: 24px;
+    height: 24px;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+}
+
+#countries{
+    margin-left: 2rem;
+    margin-top: 1.7rem;
+    border: none;
+}
+.login{
+    margin-top: 1rem;
+    border-color: rgb(61, 92, 214);
+    border-radius: 7px;
+    width: 7rem;
+    height: 3rem;
+    color: rgb(38, 75, 222);
+    border-width: 1px;
+    margin-left: 2rem;
+    
+   
+}
+.signup{
+    margin-top: 1rem;
+    border-color: rgb(61, 92, 214);
+    border-radius: 7px;
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    border-width: 1px;
+    margin-left: 2rem;
+    background-color: rgb(38, 75, 222);
+}
+.slideshow{
+    width: 512px;
+    height: 287px;
+    overflow: hidden;
+    display: flex;
+   transform: scale(1.5);
+   margin-top: 10%;
+   margin-left: 30%;
+    
+}
+.holder{
+    display: flex;
+}
+.nav{
+    width: 20px;
+    height: 100px;
+    display: flex;
+    margin-top: 20%;
+   margin-left: 2.5%;
+   transform: scale(0.5);
+   cursor: pointer;
+}
+#nav2{
+    margin-left: 30%;
+}
+
+.images{
+    transition: transform 8s ease-in-out;
+    display: flex;
+}
+#nav1:hover ~ .slideshow .images{
+    transform: translateX(-100%);
+}
+
+.compas{
+    margin-left: 10%;
+    margin-top: 6%;
+    
+}
+.ihere{
+    display: flex;
+}
+.txt{
+    margin-top: 6%;
+    margin-left: 2%;
+    font-family: 'Inter';
+    font-weight: 500;;
+}
+.new{
+    margin-top: 5.5%;
+    width:135px;
+    background-color: rgb(244,247,248);
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+#txt4{
+width:200px;
+}
+.scroller{
+    display: flex;
+gap: 0;
+height :256px;
+overflow: hidden;
+
+}
+.ima{
+    transform: scale(0.2);
+    padding: 0;
+    max-width: 100%;
+    
+  margin: 0;
+}
+.track{
+    display: flex;
+    animation: scroll 15s linear infinite;
+    
+   
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
